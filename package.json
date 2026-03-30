@@ -1,0 +1,25 @@
+{
+  "name": "strapi-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi backend",
+  "scripts": {
+    "start": "strapi start",
+    "build": "strapi build",
+    "develop": "strapi develop",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "4",
+    "mysql": "^2.18.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.0",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=8.x"
+  }
+}
