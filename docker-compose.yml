@@ -42,8 +42,7 @@ services:
       MYSQL_ROOT_PASSWORD: ${DATABASE_PASSWORD}
       MYSQL_DATABASE: ${DATABASE_NAME}
     volumes:
-      - strapi-data:/var/lib/mysql
-      #- ./data:/var/lib/mysql # if you want to use a bind folder
+      - ./data:/var/lib/mysql
     ports:
       - "3307:3306"
     networks:
@@ -53,8 +52,6 @@ services:
       timeout: 5s
       retries: 10
 
-volumes:
-  strapi-data:
 
 networks:
   strapi:
