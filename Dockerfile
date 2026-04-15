@@ -1,6 +1,7 @@
 FROM node:18
 
-ENV NODE_ENV=production
+# ENV NODE_ENV=production
+ENV NODE_ENV=development
 
 WORKDIR /srv/app
 
