@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_evento_immagines",
+  "info": {
+    "displayName": "Immagine",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_evento_ranks",
+  "info": {
+    "displayName": "Rank",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "stars": {
+      "type": "integer"
+    },
+    "sponsored": {
+      "type": "boolean"
+    }
+  }
+}
